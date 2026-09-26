@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "sidebar": {
+    "role": "Front-End Developer · Giza, EG",
+    "status": "Open to work",
+    "viewImage": "View image"
+  },
+"hero": {
+  "eyebrow": "Front-End Developer, React & Next.js",
+  "title": "I build interfaces that make complex systems feel effortless.",
+  "text": "From an AI-guided routing app that plots live paths on the map, to a solar-analytics dashboard built from raw satellite data, to contributing across a large-scale booking platform — I focus on turning data-heavy, interactive products into interfaces people barely have to think about.",
+  "cta1": "View projects",
+  "cta2": "Get in touch"
+},
+"contact": {
+  "title": "Let's work together",
+  "text": "Open to front-end roles and freelance projects — feel free to reach out and see how we can collaborate.",
+  "cta": "Contact me"
+},
+"about": {
+  "eyebrow": "About",
+  "title": "Front-End Developer crafting modern web experiences.",
+  "subtitle": "A short story of me",
+  "p1": "Frontend Developer specializing in React.js and Next.js, with hands-on experience building scalable, data-driven web applications from scratch. Experienced in developing complex booking platforms, social applications, AI-powered travel solutions,and interactive data-visualization dashboards.",
+  "p2": "Strong focus on building maintainable and responsive interfaces using TypeScript, React, Next.js, Tailwind CSS, Redux, and TanStack Query. Experienced in real-time applications with Socket.io, API integration, authentication flows, map-based interfaces, and handling large or dynamic datasets..",
+  "p3" : "My background in Geographic Information Systems (GIS) strengthens my ability to understand complex data structures and translate them into clear, intuitive user experiences. I approach frontend development by understanding the underlying data   and business logic first, allowing me to build interfaces that remain reliable as applications grow in complexity.",
+  "careerTitle": "Career",
+  "careerSubtitle": "My professional journey",
+  "educationTitle": "Education",
+  "educationSubtitle": "My educational journey"
+},
+"skills": {
+  "eyebrow": "Skills",
+  "title": "What I build with",
+  "subtitle": "Grouped by where each tool fits in the stack",
+  "categories": {
+    "frontend": "Front-end",
+    "backend": "Back-end",
+    "realtime": "Real-time & state",
+    "styling": "Styling",
+    "auth": "Auth & security",
+    "libraries": "Libraries & storage",
+    "tools": "Tools"
+  }
+},
+"contact": {
+  "eyebrow": "Contact",
+  "title": "Say hello, or send a route my way.",
+  "text": "Open to front-end roles and freelance projects — reach out directly or through any of the channels here.",
+  "status": "Open to work",
+  "cta": "Send an email",
+  "labels": {
+    "email": "Email",
+    "phone": "Phone",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  }
+}
+}
+
