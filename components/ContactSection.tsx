@@ -86,7 +86,7 @@ export default function ContactSection() {
           {channels.map(({ key, icon: Icon, value, href, copyable }) => (
             <div
               key={key}
-              className="group flex min-w-0 items-center justify-between gap-3 rounded-xl border border-neutral-800 bg-neutral-900 px-4 py-4 transition-colors hover:border-amber-400/40 sm:gap-4 sm:px-5"
+              className="group flex min-w-0 items-center justify-between gap-3 rounded-xl border px-4 py-4 transition-colors theme-border theme-surface hover:border-(--accent-strong) sm:gap-4 sm:px-5"
             >
               <a
                 href={href}
@@ -94,14 +94,14 @@ export default function ContactSection() {
                 rel={href.startsWith("http") ? "noopener" : undefined}
                 className="flex min-w-0 flex-1 items-center gap-3"
               >
-                <span className="w-9 h-9 shrink-0 rounded-lg bg-neutral-800 flex items-center justify-center text-neutral-300">
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-(--page-bg) theme-muted">
                   <Icon size={16} />
                 </span>
                 <div className="min-w-0">
-                  <div className="text-xs text-neutral-500">
+                  <div className="text-xs theme-muted">
                     {t(`labels.${key}`)}
                   </div>
-                  <div className="text-sm truncate">{value}</div>
+                  <div className="text-sm truncate ">{value}</div>
                 </div>
               </a>
 
@@ -109,7 +109,7 @@ export default function ContactSection() {
                 <button
                   type="button"
                   onClick={() => handleCopy(key, value)}
-                  className="shrink-0 w-8 h-8 rounded-lg border border-neutral-800 flex items-center justify-center text-neutral-400 hover:border-amber-400/40 hover:text-amber-400 transition-colors"
+                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border theme-border theme-muted transition-colors hover:border-(--accent-strong) hover:text-(--accent-strong)"
                   aria-label="Copy"
                 >
                   {copied === key ? <Check size={14} /> : <Copy size={14} />}
