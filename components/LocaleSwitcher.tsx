@@ -24,22 +24,17 @@ export default function LocaleSwitcher() {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <button
-          type="button"
-          className="flex items-center gap-1.5 px-2.5 h-[34px] rounded-lg theme-border border theme-surface text-sm hover:border-[var(--accent)] transition-colors"
-        >
-          <div className="relative w-5 h-3.5 shrink-0">
-            <Image
-              src={current.flag}
-              alt=""
-              fill
-              className="object-cover rounded-sm"
-            />
-          </div>
-          <span>{current.code.toUpperCase()}</span>
-          <ChevronDown size={14} className="text-neutral-400" />
-        </button>
+      <DropdownMenuTrigger className="flex h-[34px] items-center gap-1.5 rounded-lg border px-2.5 text-sm theme-border theme-surface transition-colors hover:border-[var(--accent)]">
+        <div className="relative w-5 h-3.5 shrink-0">
+          <Image
+            src={current.flag}
+            alt=""
+            fill
+            className="object-cover rounded-sm"
+          />
+        </div>
+        <span>{current.code.toUpperCase()}</span>
+        <ChevronDown size={14} className="text-neutral-400" />
       </DropdownMenuTrigger>
 
       <DropdownMenuContent align="end" className="min-w-[150px]">
